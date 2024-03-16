@@ -1,7 +1,36 @@
+body{
+    color: aliceblue;
+    background-color: black;
 
-.navbar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
+
 }
+
+.nav {
+
+    color: aliceblue;
+    background-color: transparent !important;
+    
+    
+}
+h2 {
+    border-bottom: 30px;
+    text-align: center;
+    border-top: 30px;
+}
+
+.icon-article {
+    text-align: center;
+}
+
+footer  { 
+    background-color: aqua;
+    padding-top: 30px;
+    margin-top: 30px;
+    
+}
+
+.fat{
+    font-size: 25px;
+}
+
+
