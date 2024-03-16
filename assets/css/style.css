@@ -6,16 +6,15 @@ body{
 }
 
 .nav {
-
+    position: sticky;
     color: aliceblue;
     background-color: transparent !important;
-    
-    
 }
+
+
 h2 {
-    border-bottom: 30px;
     text-align: center;
-    border-top: 30px;
+
 }
 
 .icon-article {
@@ -26,11 +25,40 @@ footer  {
     background-color: aqua;
     padding-top: 30px;
     margin-top: 30px;
-    
+    height: 60px;
+    align-items: center;
+
 }
 
 .fat{
-    font-size: 25px;
+    font-size: 40px;
+    padding-top: 2.5px;
 }
 
+.icon-article {
+    text-align: center;
+    background-color:aquamarine;
+    height: 50px;
+}
+.parrafo {
+    background-color: aquamarine;
+}
+.titulos {
+    padding: 30px;
+    margin: 30px 40px 30px 40px;
+    border-bottom: 3px;
+    border-bottom: 1px solid white;
+}
+
+.titulo {
+    padding: 30px;
+    border-bottom: 1px solid white;
+    margin: 30px 92px 30px 30px;
+    width: 94%
+}
+
+.card img {
+    height: 212px;
+    width: 286px;
+}
 
