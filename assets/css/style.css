@@ -1,23 +1,52 @@
-.shippori-mincho-regular {
-    font-family: "Shippori Mincho", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
+
+:root{
+    --roboto:"Roboto", sans-serif;
+    --roboto-light:300; 
+    --roboto-regular:400;
+    --roboto-bold:700;
+    --cyan:#00FFFF;
+    --white:white;
+    --black:black;
+}
 
 
-body{
-    color: aliceblue;
-    background-color: black;
-    font-family: shippori-mincho-regular;
+
+
+body {
+    font-family:var(--roboto);
+    font-size:14px;
+    font-weight: var(--roboto-light);
+    color:var(--black)
 
 
 }
 
-.nav {
-    position: sticky;
+.c-black{
+    color:var(--black)
+}
+.c-white{
+    color:var(--white)
+}
+.bg-black{
+    background-color:var(--black)
+}
+.bg-white{
+    background-color:var(--white)
+}
+.bg-cyan{
+    background-color:var(--cyan)
+}
+
+
+
+.navbar {
+    position: fixed;
     color: aliceblue;
-    background-color: transparent !important;
+    z-index:1000;
+    width:100%;
+}
+.navbar .nav-item a {
+    color:white!important;
 }
 
 
@@ -30,44 +59,33 @@ h2 {
     text-align: center;
 }
 
-footer  { 
-    background-color: aqua;
-    padding-top: 30px;
-    margin-top: 30px;
-    height: 60px;
-    align-items: center;
 
-}
 
-.fat{
-    font-size: 40px;
-    padding-top: 2.5px;
-}
 
 .icon-article {
     text-align: center;
-    background-color:aquamarine;
+    background-color: var(--cyan);
     height: 50px;
 }
-.parrafo {
-    background-color: aquamarine;
-}
-.titulos {
-    padding: 30px;
-    margin: 30px 40px 30px 40px;
-    border-bottom: 3px;
-    border-bottom: 1px solid white;
+
+
+
+
+
+.hero-section{
+    height: 90vh;
+    overflow: hidden;
 }
 
-.titulo {
-    padding: 30px;
-    border-bottom: 1px solid white;
-    margin: 30px 92px 30px 30px;
-    width: 94%
+.section-destacados .card{
+    border:none!important;
 }
 
-.card img {
-    height: 212px;
-    width: 286px;
+.image-cutter{
+    overflow: hidden;
+    max-height: 180px;
 }
+.image-size {
 
+
+}
